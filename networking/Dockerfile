@@ -1,5 +1,7 @@
 FROM node:12-stretch
 
+# RUN npm i -g nodemon
+
 USER node
 
 RUN mkdir /home/node/src
